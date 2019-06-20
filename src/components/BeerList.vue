@@ -16,7 +16,7 @@
 
 <script>
 
-import BeerListItem from './BeerListItem.vue'
+
 import {eventBus} from '../main.js'
 
 export default {
@@ -39,7 +39,7 @@ export default {
 
 
   components:{
-    'beer-list-item': BeerListItem
+
   }
 }
 </script>
