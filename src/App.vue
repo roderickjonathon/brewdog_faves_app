@@ -1,8 +1,15 @@
 <template>
   <div id="app">
+
+
+    <router-link :to="{name: 'favouriteBeers'}">Favourites</router-link>
+    <router-view :beers="beers" :favouriteBeers="favouriteBeers" id="view"></router-view>
+
     <beer-detail :beer='selectedBeer'></beer-detail>
     <beer-list :beers='beers'></beer-list>
-    
+
+
+
 
   </div>
 </template>

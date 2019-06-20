@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from '@/views/Home';
-import Favourites from '@/views/Favourites';
+import Favourites from '@/views/favouriteBeers';
 
 
 Vue.use(Router);
@@ -16,8 +16,8 @@ const router = new Router({
     },
 
     {
-      path: '/Favourites',
-      name: 'Favourites',
+      path: '/favouriteBeers',
+      name: 'favouriteBeers',
       component: Favourites
     }
   ]
