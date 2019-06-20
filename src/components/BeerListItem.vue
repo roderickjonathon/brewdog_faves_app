@@ -1,9 +1,9 @@
-<template lang="html">
+<!-- <template lang="html">
 
-<div id="beer-list-item">
-  <p v-on:click="handleClick">{{beer.name}}</p>
+  <div id="beer-list-item">
+    <p v-on:click="handleClick"></p>
 
-</div>
+  </div>
 </template>
 
 <script>
@@ -13,6 +13,8 @@ import {eventBus} from '../main.js'
 export default {
   name: 'beer-list-item',
   props:['beer'],
+
+
 
   methods:{
     handleClick(){
@@ -24,4 +26,4 @@ export default {
 </script>
 
 <style lang="css" scoped>
-</style>
+</style> -->
